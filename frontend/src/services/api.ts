@@ -1,0 +1,8 @@
+import axios from 'axios';
+
+const api = axios.create({
+  baseURL: 'http://localhost:8080', // Porta do seu backend Spring Boot
+  timeout: 10000,
+});
+
+export default api;
